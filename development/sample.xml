@@ -1,0 +1,85 @@
+<!--
+
+Samples of how the XML structure will looks like.
+
+All individual box nodes are nested inside a container node called boxes.
+
+Each box can only have one type. The types are l, m, and s where l stands for large
+m stands for medium, and s stands for small.
+
+Every box nodes accept a time where the time is when the content specified inside
+the box will begin.
+
+-->
+
+<!-- Sample without the use of HTML. -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<boxes>
+
+	<box type="l" time="00:00:00">
+		Contents go in here.
+	</box>
+	
+	<box type="m" time="00:05:00">
+		Contents go in here.
+	</box>
+	
+	<box type="s" time="00:10:00">
+		Contents go in here.
+	</box>
+	
+	<box type="s" time="00:25:00">
+		Contents go in here.
+	</box>
+	
+	<box type="m" time="00:35:00">
+		Contents go in here.
+	</box>
+	
+</boxes>
+
+
+
+<!-- Sample with the use of HTML, where <![CDATA[ ... ]]> is required. -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<boxes>
+
+	<box type="l" time="00:00:00">
+	<![CDATA[
+		Contents go in here with HTML tags such <a href="http://www.somewhere.com" target="_blank">link</a>.
+	]]>
+	</box>
+	
+	<box type="m" time="00:05:00">
+	<![CDATA[
+		Contents go in here with HTML tags such as <strong>bold</strong>.
+	]]>
+	</box>
+	
+	<box type="s" time="00:10:00">
+	<![CDATA[
+		Contents go in here with HTML tags such as <em>italic</em>.
+	]]>
+	</box>
+	
+	<box type="s" time="00:25:30">
+	<![CDATA[
+		Contents go in here with HTML tags such as <ins>underline</ins>.
+	]]>
+	</box>
+	
+	<box type="m" time="00:35:00">
+	<![CDATA[
+		Contents go in here with HTML tags such as <font color="#FF0000">red text</font>.
+	]]>
+	</box>
+	
+	<box type="l" time="00:35:00">
+	<![CDATA[
+		Contents go in here with HTML tags such as <font size="16px">16 pixel size text</font>.
+	]]>
+	</box>
+	
+</boxes>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topics>
+
+	<!-- lesson setup -->
+	<setup>
+		<!-- The lesson name -->
+		<lesson>HWM 330 Lesson 1</lesson>
+		<!-- The instructor's name -->
+		<instructor>CIP Player Demo</instructor>
+		<!--
+		The duration or length of the lesson.
+		NOTE: Must be manually calculated.
+		-->
+		<length>15 Minutes</length>
+		<!--
+		The X position of the text area on the poster frame.
+		Leave it empty will defaut to value of 234.
+		-->
+		<xPos />
+		<!--
+		The Y position of the text area on the poster frame.
+		Leave it empty will defaut to value of 482.
+		-->
+		<yPos />
+		<!--
+		The text color of the text area on the poster frame.
+		Leave it empty will default to value of 0x000000 (black).
+		-->
+		<tColor />
+		<!--
+		The name of the folder that contains the slide images.
+		Leave it empty will default to the value of "slides".
+		-->
+		<slideFolder />
+		<!--
+		The name of the slide images.
+		Leave it empty will default to the value of "slide".
+		NOTE: You do not need to put the two digit number after it.
+		-->
+		<slideName />
+		<!--
+		The slide image file format (png, jpg, or gif).
+		Leave it empty will default to jpg.
+		-->
+		<imgType />
+		<!--
+		The name of the audio folder that contains the audio files.
+		Leave it empty will default to the value of "audio".
+		-->
+		<audioFolder>audios</audioFolder>
+		<!--
+		The name of the audio files.
+		Leave it empty will default to the value of "media".
+		NOTE: You do not need to put the two digit number and the file extension
+		after it.
+		-->
+		<audioName>audio</audioName>
+	</setup>
+	
+	<!-- instructor or lesson information -->
+	<profile>This is a demo XML.</profile>
+	
+	<!-- topic boxes setup (refers to the documentation for more info) -->
+	<topic type="main" title="Health Care Information Definition" end="">
+		<slide number="01">SLIDE NAME 01</slide>
+		<slide number="02">SLIDE NAME 02</slide>
+		<slide number="03">SLIDE NAME 03</slide>
+		<slide number="04">SLIDE NAME 04</slide>
+	</topic>
+	
+	<topic type="main" title="Types of Health Care Information" end="">
+		<slide number="05">SLIDE NAME 05</slide>
+	</topic>
+	
+	<topic type="sub" title="Internal Type" end="">
+		<slide number="06">SLIDE NAME 06</slide>
+		<slide number="07">SLIDE NAME 07</slide>
+		<slide number="08">SLIDE NAME 08</slide>
+		<slide number="09">SLIDE NAME 09</slide>
+	</topic>
+	
+	<topic type="sub" title="External Type" end="y">
+		<slide number="10">SLIDE NAME 10</slide>
+		<slide number="11">SLIDE NAME 11</slide>
+	</topic>
+	
+	<topic type="main" title="Health Care Information Definition" end="">
+		<slide number="01">This is a really really really long title than any other titles that are on the list.</slide>
+		<slide number="02">SLIDE NAME 02</slide>
+		<slide number="03">SLIDE NAME 03</slide>
+		<slide number="04">SLIDE NAME 04</slide>
+	</topic>
+	
+	<topic type="main" title="Types of Health Care Information" end="">
+		<slide number="05">SLIDE NAME 05</slide>
+	</topic>
+	
+	<topic type="sub" title="Internal Type" end="">
+		<slide number="06">SLIDE NAME 06</slide>
+		<slide number="07">SLIDE NAME 07</slide>
+		<slide number="08">SLIDE NAME 08</slide>
+		<slide number="09">SLIDE NAME 09</slide>
+	</topic>
+	
+	<topic type="sub" title="External Type" end="y">
+		<slide number="10">SLIDE NAME 10</slide>
+		<slide number="11">SLIDE NAME 11</slide>
+	</topic>
+	
+	<topic type="main" title="Health Care Information Definition" end="">
+		<slide number="01">SLIDE NAME 01</slide>
+		<slide number="02">SLIDE NAME 02</slide>
+		<slide number="03">SLIDE NAME 03</slide>
+		<slide number="04">SLIDE NAME 04</slide>
+	</topic>
+	
+	<topic type="MAIN" title="Types of Health Care Information" end="">
+		<slide number="05">SLIDE NAME 05</slide>
+	</topic>
+	
+	<topic type="sub" title="Internal Type" end="y">
+		<slide number="06">SLIDE NAME 06</slide>
+		<slide number="07">SLIDE NAME 07</slide>
+		<slide number="08">SLIDE NAME 08</slide>
+		<slide number="09">SLIDE NAME 09</slide>
+	</topic>
+	
+	<topic type="Main" title="Summary" end="">
+		<slide number="10">SLIDE NAME 10</slide>
+	</topic>
+		
+</topics>
