@@ -1,2 +1,2 @@
-# ASG University Partners Best in Show
-A WordPress website created for ASG University Partners to share online teaching experiences.
+# Cognitive Information Processing Player
+DEPRECATED - No longer in active development. This repository serves as an archive location.
